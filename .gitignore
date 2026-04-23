@@ -16,7 +16,12 @@ terraform.rc
 # SSH Keys
 lab-key
 lab-key.pub
+terraform/lab-key*
+*.pem
 
 # Environment Variables
 .env
 .env.local
+
+# Local scratch files
+terraform/test-write.txt

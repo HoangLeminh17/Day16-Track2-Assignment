@@ -1,0 +1,21 @@
+{
+  "dataset": "creditcard.csv",
+  "rows": 284807,
+  "features": 30,
+  "class_distribution": {
+    "negative": 284315,
+    "positive": 492
+  },
+  "load_time_seconds": 2.465,
+  "training_time_seconds": 2.0061,
+  "prediction_time_seconds": 0.0135,
+  "best_iteration": 1,
+  "auc_roc": 0.9516,
+  "accuracy": 0.998947,
+  "f1_score": 0.727273,
+  "precision": 0.655738,
+  "recall": 0.816327,
+  "inference_latency_1_row_ms": 1.7059,
+  "inference_throughput_1000_rows_per_sec": 581807.35,
+  "total_runtime_seconds": 4.8617
+}
